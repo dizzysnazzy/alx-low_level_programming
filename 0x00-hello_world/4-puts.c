@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * Auth: Dismas Kipchumba <375@holbertonschool.com>
+ * Auth: Dismas Kipchumba <dismaskipchumba2@gmail.com>
  */
 
 #include <stdio.h>
