@@ -1,15 +1,20 @@
+/*
+ * File: 5-print_numbers.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 /**
  * main - entry block
- * @void: no argument
+ * Description: no argument
  * Return: 0
  **/
 int main(void)
 {
-	int i;
+	int digit;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
+	for (digit = 0; digit < 10; digit++)
+		printf("%d", digit);
 	printf("\n");
 	return (0);
 }
