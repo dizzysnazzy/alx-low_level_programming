@@ -1,9 +1,3 @@
-/**
- * File: 0-holberton.c
- * Auth: Dismas Kipchumba
- *
- */
-
 #include "holberton.h"
 
 /**
