@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-alphabet.c
  * Auth: Dismas Kipchumba
  */
@@ -6,9 +6,7 @@
 #include "holberton.h"
 
 /**
- * printalphabet - prints the alphabet in lowercase, followed by a new line.
- *
- *Description:Alphabets in lowercase
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 void print_alphabet(void)
 {
