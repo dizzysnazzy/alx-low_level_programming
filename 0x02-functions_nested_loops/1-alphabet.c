@@ -7,6 +7,8 @@
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ *
+ *Description:Alphabets in lowercase
  */
 void print_alphabet(void)
 {
