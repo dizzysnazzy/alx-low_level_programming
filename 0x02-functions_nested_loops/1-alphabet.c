@@ -6,7 +6,7 @@
 #include "holberton.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * printalphabet - prints the alphabet in lowercase, followed by a new line.
  *
  *Description:Alphabets in lowercase
  */
