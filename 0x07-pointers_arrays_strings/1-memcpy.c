@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-memcpy.c
  * Auth: Dismas Kipchumba
  */
