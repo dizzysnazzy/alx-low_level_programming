@@ -1,8 +1,3 @@
-/*
- * File: 100-argstostr.c
- * Auth: Dismas Kipchumba
- */
-
 #include "holberton.h"
 #include <stdlib.h>
 
