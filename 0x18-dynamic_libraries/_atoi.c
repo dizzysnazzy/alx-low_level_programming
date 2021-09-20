@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include "holberton.h"
 
 /**
  * _atoi - Converts a string to an integer.

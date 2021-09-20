@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include "holberton.h"
 
 /**
  * _puts - Prints a string to stdout.
