@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -O /tmp/win.so https://github.com/dizzysnazzy/alx-low_level_programming/raw/main/0x18-dynamic_libraries/win.so
-export LD_PRELOAD=/tmp/win.so
+wget -P .. https://github.com/dizzysnazzy/alx-low_level_programming/blob/main/0x18-dynamic_libraries/101-md5_gm/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
