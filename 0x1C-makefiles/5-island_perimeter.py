@@ -2,8 +2,8 @@
 """Module that calculates the perimeter of an island in a grid."""
 
 
-def num_water_neighbors(grid, i, j):
-    """Returns the number of water neighbors a cell has in a grid."""
+def num_of_water(grid, i, j):
+    """Returns the number of water a cell has in a grid."""
 
     num = 0
 
@@ -26,6 +26,6 @@ def island_perimeter(grid):
     for i in range(len(grid)):
         for j in range(len(grid[i])):
             if grid[i][j]:
-                perimeter += num_water_neighbors(grid, i, j)
+                perimeter += num_of_water(grid, i, j)
 
     return perimeter
