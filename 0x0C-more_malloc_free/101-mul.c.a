@@ -80,14 +80,28 @@ void print_int(unsigned long int n)
 
 int main(int argc, char const *argv[])
 {
-	(void)argc;
-
 	if (argc != 3)
 	{
 		_puts("Error ");
 		exit(98);
 	}
-	print_int(_atoi(argv[1]) * _atoi(argv[2]));
+
+	for (int i = 1; i < argc; i++)
+	{
+		for (int j = 0; argv[i][j]; j++)
+		{
+			if (argv[i][j] < 48 || argv[i][j] > 57)
+			{
+				_puts("Error\n");
+				exit(98);
+			}
+		}
+	}
+
+	unsigned long int num1 = _atoi(argv[1]);
+	unsigned long int num2 = _atoi(argv[2]);
+
+	print_int(num1 * num2);
 	_putchar('\n');
 
 	return (0);
