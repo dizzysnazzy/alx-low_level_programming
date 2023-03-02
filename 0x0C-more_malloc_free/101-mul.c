@@ -18,7 +18,7 @@ void _puts(char *str)
 
 	while (str[i])
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
 }
@@ -38,7 +38,7 @@ int _atoi(const char *s)
 	{
 		if (s[firstNum] == '-')
 		{
-		    sign *= -1;
+			sign *= -1;
 		}
 	}
 
@@ -67,7 +67,7 @@ void print_int(unsigned long int n)
 	for (; divisor >= 1; n %= divisor, divisor /= 10)
 	{
 		resp = n / divisor;
-		putchar('0' + resp);
+		_putchar('0' + resp);
 	}
 }
 
@@ -102,7 +102,7 @@ int main(int argc, char const *argv[])
 	unsigned long int num2 = _atoi(argv[2]);
 
 	print_int(num1 * num2);
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
